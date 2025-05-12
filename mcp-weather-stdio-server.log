@@ -1,0 +1,4 @@
+2025-04-27T17:23:22.167+09:00  INFO 71540 --- [weather] [main] c.e.weather.WeatherApplicationTests      : Starting WeatherApplicationTests using Java 21.0.7 with PID 71540 (started by iriekengo in /Users/iriekengo/Desktop/weather)
+2025-04-27T17:23:22.169+09:00  INFO 71540 --- [weather] [main] c.e.weather.WeatherApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-04-27T17:23:23.554+09:00  INFO 71540 --- [weather] [main] o.s.a.a.m.s.MpcServerAutoConfiguration   : Registered tools2 notification: true
+2025-04-27T17:23:23.800+09:00  INFO 71540 --- [weather] [main] c.e.weather.WeatherApplicationTests      : Started WeatherApplicationTests in 2.116 seconds (process running for 3.511)
