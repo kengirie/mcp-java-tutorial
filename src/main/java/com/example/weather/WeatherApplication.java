@@ -1,5 +1,6 @@
 package com.example.weather;
 
+import com.example.weather.service.BlossomDocumentationService;
 import com.example.weather.service.WeatherService;
 
 import org.springframework.boot.SpringApplication;
@@ -16,8 +17,11 @@ public class WeatherApplication {
 	}
 
 	@Bean
-	public ToolCallbackProvider weatherTools(WeatherService weatherService) {
-		return MethodToolCallbackProvider.builder().toolObjects(weatherService).build();
-	}
+        public ToolCallbackProvider weatherTools(WeatherService weatherService,
+                        BlossomDocumentationService blossomDocumentationService) {
+                return MethodToolCallbackProvider.builder()
+                                .toolObjects(weatherService, blossomDocumentationService)
+                                .build();
+        }
 
 }
